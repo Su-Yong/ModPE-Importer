@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Importing ModPE's android packages",
+        "command": "atom-importer:importing"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-importer",
+          "submenu": [
+            {
+              "label": "Importing",
+              "command": "atom-importer:importing"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
